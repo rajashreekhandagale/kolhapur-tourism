@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kolhapur Tourism</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+    }
+    nav {
+      background-color: #b22222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+    header {
+      background-image: url("images/kolhapur-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 2px 5px black;
+    }
+    .welcome {
+      padding: 30px;
+      text-align: center;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #ff6347;
+      color: white;
+      border: none;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation bar -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="attractions.html">Attractions</a>
+  <a href="food.html">Food</a>
+  <a href="travel.html">Travel</a>
+  <a href="cost.html">Cost</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- Hero section -->
+<header>
+  <h1>Welcome to Kolhapur</h1>
+  <p>The City of Temples, Culture & Spice!</p>
+</header>
+
+<!-- Intro section -->
+<div class="welcome">
+  <h2>Explore Kolhapur Tourism</h2>
+  <p>Kolhapur is a historic city in Maharashtra, famous for the Mahalaxmi

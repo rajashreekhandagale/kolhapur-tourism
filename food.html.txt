@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kolhapuri Food & Shopping</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+    }
+    nav {
+      background-color: #b22222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: #b22222;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #b22222;
+    }
+    .card p {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="attractions.html">Attractions</a>
+  <a href="food.html">Food</a>
+  <a href="travel.html">Travel</a>
+  <a href="cost.html">Cost</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Famous Kolhapuri Food & Shopping</h1>
+
+<div class="cards">
+
+  <div class="card">
+    <img src="images/misal.jpg" alt="Misal Pav">
+    <div class="card-content">
+      <h3>Misal Pav</h3>
+      <p>Spicy and crunchy, Kolhapuri Misal is a popular street food served with pav, farsan and rassa.</p>
+    <

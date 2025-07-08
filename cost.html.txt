@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Estimated Travel Cost</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 0;
+    }
+    nav {
+      background-color: #b22222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: #b22222;
+    }
+    table {
+      width: 80%;
+      margin: 0 auto 40px auto;
+      border-collapse: collapse;
+      background-color: #fefefe;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f44336;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .note {
+      width: 80%;
+      margin: auto;
+      font-size: 14px;
+      color: #555;
+      padding-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="attractions.html">Attractions</a>
+  <a href="food.html">Food</a>
+  <a href="travel.html">Travel</a>
+  <a href="cost.html">Cost</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Estimated Travel Cost for 2 Days</h1>
+
+<table>
+  <tr>
+    <th>Expense</th>
+    <th>Approx. Cost (INR)</th>
+  </tr>
+  <tr>
+    <td>Travel (Bus or Train)</td>
+    <td>₹800 - ₹1,500</td>
+  </tr>
+  <tr>
+    <td>Hotel (2 nights)</td>
+    <td>₹2,000 - ₹3,500</td>
+  </tr>
+  <tr>
+    <td>Food (Meals & Snacks)</td>
+    <td>₹600 - ₹1,000</td>
+  </tr>
+  <tr>
+    <td>Entry Fees (Tourist Places)</td>
+    <td>₹100 - ₹300</td>
+  </tr>
+  <tr>
+    <td>Shopping</td>
+    <td>₹500 - ₹1,000</td>
+  </tr>
+  <tr>
+    <th>Total Estimated Cost</th>
+    <th>₹4,000 - ₹7,300</th>
+  </tr>
+</table>
+
+<div class="note">
+  <p><strong>Note:</strong> These are approximate prices for a short trip. Actual cost depends on season, number of people, transport type, and hotel choice.</p>
+</div>
+
+</body>
+</html>
