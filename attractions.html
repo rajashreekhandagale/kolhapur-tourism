@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kolhapur Attractions</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+    }
+    nav {
+      background-color: #b22222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: #b22222;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #b22222;
+    }
+    .card p {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="attractions.html">Attractions</a>
+  <a href="food.html">Food</a>
+  <a href="travel.html">Travel</a>
+  <a href="cost.html">Cost</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Top Attractions in Kolhapur</h1>
+
+<div class="cards">
+  <div class="card">
+    <img src="images/mahalaxmi.jpg" alt="Mahalaxmi Temple">
+    <div class="card-content">
+      <h3>Mahalaxmi Temple</h3>
+      <p>An iconic spiritual site dedicated to Goddess Mahalaxmi, built in the 7th century.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/rankala.jpg" alt="Rankala Lake">
+    <div class="card-content">
+      <h3>Rankala Lake</h3>
+      <p>A scenic lake surrounded by gardens, great for evening walks and boating.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/panhala.jpg" alt="Panhala Fort">
+    <div class="card-content">
+      <h3>Panhala Fort</h3>
+      <p>A historic fort that tells tales of Shivaji Maharaj’s bravery and strategic genius.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/newpalace.jpg" alt="New Palace">
+    <div class="card-content">
+      <h3>New Palace Museum</h3>
+      <p>Royal residence with Indo-Saracenic architecture, now a museum displaying artifacts.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/jyotiba.jpg" alt="Jyotiba Temple">
+    <div class="card-content">
+      <h3>Jyotiba Temple</h3>
+      <p>Located on a hilltop, this temple offers panoramic views and vibrant festivals.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer style="background-color:#b22222; color:white; text-align:center; padding:15px; margin-top:40px;">
+  Made with ❤️ by <strong>Rajashree</strong> | © 2025 Kolhapur Tourism
+  <br>
+  <a href="https://instagram.com/yourusername" target="_blank" style="color:white; text-decoration:underline;">Follow on Instagram</a>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kolhapuri Food & Shopping</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+    }
+    nav {
+      background-color: #b22222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: #b22222;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #b22222;
+    }
+    .card p {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="attractions.html">Attractions</a>
+  <a href="food.html">Food</a>
+  <a href="travel.html">Travel</a>
+  <a href="cost.html">Cost</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Famous Kolhapuri Food & Shopping</h1>
+
+<div class="cards">
+  <div class="card">
+    <img src="images/misal.jpg" alt="Misal Pav">
+    <div class="card-content">
+      <h3>Misal Pav</h3>
+      <p>Spicy and crunchy, Kolhapuri Misal is a popular street food served with pav, farsan and rassa.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/tambdarassa.jpg" alt="Tambda Rassa">
+    <div class="card-content">
+      <h3>Tambda Rassa</h3>
+      <p>A fiery red mutton curry made with Kolhapuri spices — bold and flavorful!</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/bhadang.jpg" alt="Kolhapuri Bhadang">
+    <div class="card-content">
+      <h3>Kolhapuri Bhadang</h3>
+      <p>Spicy puffed rice snack mixed with peanuts, garlic and masala — perfect for tea time.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/chappal.jpg" alt="Kolhapuri Chappal">
+    <div class="card-content">
+      <h3>Kolhapuri Chappals</h3>
+      <p>Handmade leather slippers known for durability and style — a must-buy from Kolhapur!</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/jaggery.jpg" alt="Kolhapuri Jaggery">
+    <div class="card-content">
+      <h3>Kolhapuri Jaggery (Gul)</h3>
+      <p>Organic jaggery made from sugarcane — sweet and healthy souvenir from the city.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer style="background-color:#b22222; color:white; text-align:center; padding:15px; margin-top:40px;">
+  Made with ❤️ by <strong>Rajashree</strong> | © 2025 Kolhapur Tourism
+  <br>
+  <a href="https://instagram.com/yourusername" target="_blank" style="color:white; text-decoration:underline;">Follow on Instagram</a>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
